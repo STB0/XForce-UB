@@ -9,8 +9,8 @@
 # IF YOU KANG THEN KEEP CREDITS PLEASE 🥺
 from telethon import events, Button
 import re, os
-from ULTRAX import id
-from ULTRAX import xbot
+from XForce-UB import id
+from XForce-UB import xbot
 @xbot.on(events.InlineQuery(pattern='wspr'))
 async def inline_proboy(event):
   PROBOYX = event.text[5:]
